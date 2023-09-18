@@ -1,0 +1,57 @@
+.banner {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.banner__left {
+    flex: 1;
+    color: #fff;
+}
+
+.banner__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    color: #fff;
+}
+
+.banner__title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.banner__subtitle {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.banner__product-id {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+.banner__product-price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
